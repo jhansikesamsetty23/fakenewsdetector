@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake News Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Fake News Detector for Students</h1>
+
+    <form action="/analyze" method="POST">
+
+        <textarea
+            name="article"
+            placeholder="Paste news article here..."
+            required></textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Analyze News
+        </button>
+
+    </form>
+
+    <br>
+
+    <a href="/about">
+        <button type="button">
+            About Project
+        </button>
+    </a>
+
+</div>
+
+</body>
+</html>
