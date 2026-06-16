@@ -117,3 +117,5 @@ Jhansi Kesamsetty
 - Flask
 - Scikit-learn
 - Python Community
+
+<img width="1600" height="657" alt="image" src="https://github.com/user-attachments/assets/df6c9617-d946-497b-982f-28bdcc3c1f14" />
